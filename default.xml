@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+	  fetch="https://github.com/"
+	  review="https://github.com/" />
+
+  <default revision="linux4.4-rk3288-tinker_board"
+           remote="github"
+           sync-c="true" />    
+</manifest>
