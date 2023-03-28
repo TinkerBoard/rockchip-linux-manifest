@@ -36,3 +36,10 @@ To download the Android source tree to your working directory from the repositor
 |Tinker Board (S) (R2.0)|Debian 10|3.0.11|linux4.4-rk3288-tinker_board|tinker_board-debian-3.0.11.xml|
 |Tinker Board (S) (R2.0)|Debian 10|3.0.13|linux4.4-rk3288-tinker_board|tinker_board-debian-3.0.13.xml|
 |Tinker Board (S) (R2.0)|Debian 10|3.0.16|linux4.4-rk3288-tinker_board|tinker_board-debian-3.0.16.xml|
+|Tinker Board (S) (R2.0)|Debian 10|latest|linux4.4-rk3288-tinker_board-3.0.13|
+|Tinker Board (S) (R2.0)|Debian 10|3.0.13.1|linux4.4-rk3288-tinker_board-3.0.13|tinker_board-debian-3.0.13.1.xml|
+|Tinker Board (S) (R2.0)|Debian 10|3.0.13-2|linux4.4-rk3288-tinker_board-3.0.13|tinker_board-debian-3.0.13-2.xml|
+|Tinker Board (S) (R2.0)|Debian 10|3.0.13-3|linux4.4-rk3288-tinker_board-3.0.13|tinker_board-debian-3.0.13-3.xml|
+|Tinker Board (S) (R2.0)|Debian 10|3.0.13-4|linux4.4-rk3288-tinker_board-3.0.13|tinker_board-debian-3.0.13-4.xml|
+|Tinker Board (S) (R2.0)|Debian 10|3.0.13-5|linux4.4-rk3288-tinker_board-3.0.13|tinker_board-debian-3.0.13-5.xml|
+|Tinker Board (S) (R2.0)|Debian 10|3.0.13-6|linux4.4-rk3288-tinker_board-3.0.13|tinker_board-debian-3.0.13-6.xml|
