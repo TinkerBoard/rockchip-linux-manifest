@@ -5,7 +5,7 @@
           review="https://github.com/" />
 
   <default remote="github"
-           revision="refs/tags/linux4.4-rk3288-tinker_board-3.0.13-4"
+           revision="refs/tags/tinker_board-debian-3.0.13-4"
            sync-c="true" />
 
   <project path="app/QLauncher" name="TinkerBoard/rockchip-linux-app-QLauncher" />
