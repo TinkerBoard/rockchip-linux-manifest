@@ -19,6 +19,7 @@
     <linkfile src="build/envsetup.sh" dest="envsetup.sh"/>
   </project>
   <project path="debian" name="TinkerBoard/rockchip-linux-rk-rootfs-build" />
+  <project path="debian_new" name="TinkerBoard/rockchip-linux-debian" />
   <project path="device/rockchip" name="TinkerBoard/rockchip-linux-device-rockchip" >
     <linkfile src="tinker_board_2/mkfirmware.sh" dest="mkfirmware.sh" />
     <linkfile src="tinker_board_2/build.sh" dest="build.sh" />
