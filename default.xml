@@ -14,7 +14,7 @@
   <project path="app/qfm" name="TinkerBoard/rockchip-linux-app-new-qfm" />
   <project path="app/qplayer" name="TinkerBoard/rockchip-linux-app-qplayer" />
   <project path="app/qsetting" name="TinkerBoard/rockchip-linux-app-settings" />
-  <project path="buildroot" name="TinkerBoard/rockchip-linux-buildroot"  >
+  <project path="buildroot" name="TinkerBoard/rockchip-linux-buildroot" >
     <linkfile src="build/Makefile" dest="Makefile"/>
     <linkfile src="build/envsetup.sh" dest="envsetup.sh"/>
   </project>
