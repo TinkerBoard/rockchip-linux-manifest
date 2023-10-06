@@ -34,17 +34,32 @@ To download the code base source tree to your working directory from the reposit
 
     $ repo sync
 
+To build the image, go to to the directory where you have downloaded the code base and run the script as the following. This will take a while to install the necessary packages on the host and build the Docker image.
+
+    $ ./docker_builder/docker-builder-run.sh
+
+Once the above is done, you are in the shell of the newly started Docker container. You can start to run commands as usual. You can then run the commands to build the image. The images will be saved in the directory IMAGE.
+
 ## Tinker Board 3N
 ### Tinker OS Debian
 |Product|Debian version|Release|Branch|Manifest|
 |-|-|-|-|-|
 |Tinker Board 3N|Debian 11|latest|linux5.10-rk356x|
 
+To build the image, please run the following commands.
+
+    ​$ ./build.sh rockchip_rk3568_tinker_board_3n_debain_defconfig
+    $ VERSION=release ./build.sh
+
 ### Tinker OS Yocto
 |Product|Yocto project version|Release|Branch|Manifest|
 |-|-|-|-|-|
 |Tinker Board 3N|Yocto 4.0|latest|linux5.10-rk356x|
 
+To build the image, please run the following commands.
+
+    $ ./build.sh rockchip_rk3568_tinker_board_3n_yocto_defconfig
+    $ ./build.sh
 
 
 
