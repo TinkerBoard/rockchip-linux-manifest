@@ -20,11 +20,11 @@ Please refer to the following URL to understand how to download the code base us
 
 The code base has branches for different products and manifests for different releases.
 
-To check out the latest code base for a product, please execute the following command and use the branch name for that product as REVISION.
+To check out the latest code base for a product, please run the following command and use the branch name for that product as REVISION.
 
     $ repo init -u https://github.com/TinkerBoard/rockchip-linux-manifest.git -b REVISION
 
-To check out the code base for a specific release, please execute the following command and use the branch name for that product as REVISION and the manifest as NAME.xml.
+To check out the code base for a specific release, please run the following command and use the branch name for that product as REVISION and the manifest as NAME.xml.
 
     $ repo init -u https://github.com/TinkerBoard/rockchip-linux-manifest.git -b REVISION -m NAME.xml
 
