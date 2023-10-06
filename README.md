@@ -1,5 +1,7 @@
 # rockchip-linux-manifest
 
+This is the manifest project used to download the TinkerOS Debian and Yocto Linux code base for Tinker Board series.
+
 For more information, please go to TinkerBoard wiki.
 
     https://github.com/TinkerBoard/TinkerBoard/wiki
@@ -12,7 +14,7 @@ Please refer to the following URL to install Repo.
 
     https://source.android.com/setup/develop#installing-repo
 
-Please refer to the following URL to understand how to download the AOSP-based source.
+Please refer to the following URL to understand how to download the code base using repo.
 
     https://source.android.com/setup/build/downloading
 
@@ -29,6 +31,12 @@ Here REVISON is the manifest branch or revision (use HEAD for default) and NAME.
 To download the Android source tree to your working directory from the repositories as specified in the default manifest, run:
 
     $ repo sync
+
+|Product|Debian version|Release|Branch|Manifest|
+|-|-|-|-|-|
+|Tinker Board 3N|Debian 11|latest|linux5.10-rk356x|
+|Tinker Board 3N|Yocto|latest|linux5.10-rk356x|
+
 
 |Product|Debian version|Release|Branch|Manifest|
 |-|-|-|-|-|
