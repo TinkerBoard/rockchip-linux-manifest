@@ -4,7 +4,77 @@
           fetch="https://github.com/"
           review="https://github.com/" />
 
-  <default revision=""
-           remote="github"
-           sync-c="true" />    
+  <default remote="github"
+           revision="linux5.10-rk356x-tinker_board_3n-debian_11-1.0.7"
+           sync-c="true" />
+
+  <project path="app/QLauncher" name="TinkerBoard/rockchip-linux-app-QLauncher" />
+  <project path="app/lvgl_demo" name="TinkerBoard/rockchip-linux-app-lvgl_demo" />
+  <project path="app/multivideoplayer" name="TinkerBoard/rockchip-linux-app-multivideoplayer" />
+  <project path="app/qcamera" name="TinkerBoard/rockchip-linux-app-qcamera" />
+  <project path="app/qfm" name="TinkerBoard/rockchip-linux-app-new-qfm" />
+  <project path="app/qplayer" name="TinkerBoard/rockchip-linux-app-qplayer" />
+  <project path="app/qsetting" name="TinkerBoard/rockchip-linux-app-settings" />
+  <project path="buildroot" name="TinkerBoard/rockchip-linux-buildroot" >
+    <linkfile src="build/envsetup.sh" dest="envsetup.sh"/>
+  </project>
+  <project path="debian" name="TinkerBoard/rockchip-linux-debian" />
+  <project path="device/rockchip" name="TinkerBoard/rockchip-linux-device-rockchip" >
+    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+    <linkfile src="common/Makefile" dest="Makefile"/>
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
+  </project>
+  <project path="docker_builder" name="TinkerBoard/DevOps-docker_builder" />
+  <project path="docs" name="TinkerBoard/rockchip-linux-bsp-docs" />
+  <project path="docs/cn" name="TinkerBoard/rockchip-linux-bsp-docs-cn" >
+    <linkfile src="Rockchip_Developer_Guide_Linux_Software_CN.pdf" dest="docs/cn/RK3566_RK3568/Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
+  </project>
+  <project path="docs/cn/RK3566_RK3568" name="TinkerBoard/rockchip-linux-bsp-internal_doc" />
+  <project path="docs/en" name="TinkerBoard/rockchip-linux-bsp-docs-en" />
+  <project path="docs/en/RK3566_RK3568" name="TinkerBoard/rockchip-linux-bsp-internal_doc-en" />
+  <project path="external/alsa-config" name="TinkerBoard/rockchip-linux-external-alsa-config" />
+  <project path="external/camera_engine_rkaiq" name="TinkerBoard/rockchip-linux-external-camera_engine_rkaiq" />
+  <project path="external/chromium" name="TinkerBoard/rockchip-linux-external-chromium" />
+  <project path="external/common_algorithm" name="TinkerBoard/rockchip-linux-external-common_algorithm" />
+  <project path="external/dpdk" name="TinkerBoard/rockchip-linux-external-dpdk" />
+  <project path="external/drm-cursor" name="TinkerBoard/rockchip-linux-drm-cursor" />
+  <project path="external/gstreamer-rockchip" name="TinkerBoard/rockchip-linux-gstreamer-rockchip" />
+  <project path="external/libmali" name="TinkerBoard/rockchip-linux-libmali" />
+  <project path="external/linux-rga" name="TinkerBoard/rockchip-linux-linux-rga" />
+  <project path="external/mpp" name="TinkerBoard/rockchip-linux-mpp" />
+  <project path="external/recovery" name="TinkerBoard/rockchip-linux-recovery" />
+  <project path="external/rk_pcba_test" name="TinkerBoard/rockchip-linux-external-rk_pcba_test" />
+  <project path="external/rknn-toolkit2" name="TinkerBoard/rockchip-linux-rknn-toolkit2" />
+  <project path="external/rknpu2" name="TinkerBoard/rockchip-linux-rknpu2" />
+  <project path="external/rkscript" name="TinkerBoard/rockchip-linux-external-rkscript" />
+  <project path="external/rktoolkit" name="TinkerBoard/rockchip-linux-external-rktoolkit" />
+  <project path="external/rkupdate" name="TinkerBoard/rockchip-linux-external-rkupdate" />
+  <project path="external/rkwifibt" name="TinkerBoard/rockchip-linux-external-rkwifibt" />
+  <project path="external/rkwifibt-app" name="TinkerBoard/rockchip-linux-external-rkwifibt-app" />
+  <project path="external/rockchip-test" name="TinkerBoard/rockchip-linux-rockchip-test" />
+  <project path="external/rockit" name="TinkerBoard/rockchip-linux-rockit" />
+  <project path="external/security/bin" name="TinkerBoard/rockchip-linux-security-bin" />
+  <project path="external/security/librkcrypto" name="TinkerBoard/rockchip-linux-librkcrypto" />
+  <project path="external/security/rk_tee_user" name="TinkerBoard/rockchip-linux-system-rk_tee_user" />
+  <project path="external/xserver" name="TinkerBoard/rockchip-linux-xserver" />
+  <project path="kernel" name="TinkerBoard/rockchip-linux-kernel" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" name="TinkerBoard/rockchip-linux-prebuilts-gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" />
+  <project path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" name="TinkerBoard/rockchip-linux-prebuilts-gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" />
+  <project path="rkbin" name="TinkerBoard/rockchip-linux-rkbin" />
+  <project path="tools" name="TinkerBoard/rockchip-linux-tools" />
+  <project path="u-boot" name="TinkerBoard/rockchip-linux-u-boot" />
+  <project path="yocto/build/conf" name="TinkerBoard/rockchip-linux-build" />
+  <project path="yocto/meta-asus" name="TinkerBoard/rockchip-linux-yocto-meta-asus-local" />
+  <project path="yocto/meta-browser" name="TinkerBoard/rockchip-linux-yocto-meta-browser" />
+  <project path="yocto/meta-clang" name="TinkerBoard/rockchip-linux-yocto-meta-clang" />
+  <project path="yocto/meta-openembedded" name="TinkerBoard/rockchip-linux-yocto-meta-openembedded" />
+  <project path="yocto/meta-qt5" name="TinkerBoard/rockchip-linux-yocto-meta-qt5" />
+  <project path="yocto/meta-rockchip" name="TinkerBoard/rockchip-linux-yocto-meta-rockchip" />
+  <project path="yocto/poky" name="TinkerBoard/rockchip-linux-poky" >
+    <linkfile src="scripts" dest="yocto/scripts"/>
+    <linkfile src="bitbake" dest="yocto/bitbake"/>
+    <linkfile src="meta-poky" dest="yocto/meta-poky"/>
+    <linkfile src=".templateconf" dest="yocto/.templateconf"/>
+    <linkfile src="oe-init-build-env" dest="yocto/oe-init-build-env"/>
+  </project>
 </manifest>
