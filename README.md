@@ -45,7 +45,7 @@ Once the above is done, you are in the shell of the newly started Docker contain
 |Product|Debian version|Release|Branch|Manifest|Comment|
 |-|-|-|-|-|-|
 |Tinker Board 3N|Debian 11|latest|linux5.10-rk356x|default.xml|
-|Tinker Board 3N|Debian 11|1.0.7|linux5.10-rk356x-tinker_board_3n-debian_11-1.0.7|default.xml|Since there are some fixes need for building, please use the default manifest for this branch to download the code base for this release.|
+|Tinker Board 3N|Debian 11|1.0.7|linux5.10-rk356x-tinker_board_3n-debian_11-1.0.7|default.xml|Since there are some fixes needed for building, please use the default manifest for this branch to download the code base for this release.|
 
 To build the image, please run the following commands.
 
@@ -53,9 +53,9 @@ To build the image, please run the following commands.
     $ VERSION=release ./build.sh
 
 ### Tinker OS Yocto
-|Product|Yocto project version|Release|Branch|Manifest|
-|-|-|-|-|-|
-|Tinker Board 3N|Yocto 4.0|latest|linux5.10-rk356x|
+|Product|Yocto project version|Release|Branch|Manifest|Comment|
+|-|-|-|-|-|-|
+|Tinker Board 3N|Yocto 4.0|latest|linux5.10-rk356x|default.xml|
 
 To build the image, please run the following commands.
 
